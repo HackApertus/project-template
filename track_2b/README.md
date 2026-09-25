@@ -33,6 +33,15 @@ https://hackapertus.notion.site/resources-tools
 
 ---
 
+## Data
+
+Store your data in `data/` and commit it with your project. If it is too big
+for git (GitHub rejects files over 100 MB), upload it to
+[Hugging Face](https://huggingface.co/) instead and link it from
+`technical_report.md`, together with where the data came from.
+
+---
+
 ## 📦 Submissions & Deliverables
 
 Submissions are not handled in Devpost but under this URL:

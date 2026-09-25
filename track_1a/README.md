@@ -61,6 +61,11 @@ Your findings files must be shared under a CDLA-Permissive-2.0 license. However,
 - The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [example_findings.json](example_findings.json)
 - A submission can consist of up to 5 findings files.
 
+Store your data in `data/` and commit it with your project. If it is too big
+for git (GitHub rejects files over 100 MB), upload it to
+[Hugging Face](https://huggingface.co/) instead and link it from
+`technical_report.md`, together with where the data came from.
+
 ### Reproducibility
 
 You can create a Python notebook that reproduces each issue as faithfully as possible.
