@@ -3,15 +3,12 @@
 .env.*
 !.env.example
 
-# Model weights, checkpoints and track 2 datasets — do not commit these
+# Model weights and checkpoints — do not commit these
 *.bin
 *.safetensors
 *.gguf
 *.ckpt
 *.pt
-/track_2a/data/*
-/track_2b/data/*
-!*/data/.gitkeep
 
 # Python
 __pycache__/

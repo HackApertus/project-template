@@ -25,13 +25,13 @@ yours, the structure is not. Keep the files and directories as shown below.
 | `technical_report.md` | The deeper write-up: architecture, evaluation, limitations |
 | `Makefile` | `make run` must spin up your project |
 | `src/` | Your code |
-| `data/` | Datasets — `track_1a`, `track_2a` and `track_2b` only; its contents stay out of git |
+| `data/` | Datasets — `track_1a`, `track_2a` and `track_2b` only |
 | `docs/` | Diagrams, notes, longer write-ups |
 
-Everything data related goes inside `data/` — the datasets, fixtures, samples
-and evaluation sets that make sense for your challenge. Keep large or
-non-redistributable files out of git (see `.gitignore`) and say in
-`technical_report.md` where they came from.
+Store your data in `data/` and commit it with your project. If it is too big
+for git (GitHub rejects files over 100 MB), upload it to
+[Hugging Face](https://huggingface.co/) instead and link it from
+`technical_report.md`, together with where the data came from.
 
 `make run` has to spin up your project from its root:
 
