@@ -13,9 +13,14 @@ This repository holds one example project per track:
 - `track_2a/`
 - `track_2b/`
 
-Take the one for the track you are competing in and use it as the template for
-your project. **Rename it to whatever your project is called** — the name is
-yours, the structure is not. Keep the files and directories as shown below.
+Pick the directory for your track. **Its contents become the root of your
+repository.** Move everything inside it (`README.md`, `technical_report.md`,
+`Makefile`, `src/`, …, including hidden files like `.gitignore`) to the top
+level, and delete all the `track_*` directories. Keep the files and
+directories as shown below.
+
+Don't nest your project in a subdirectory. We run `make run` from the root of
+your repository, so the `Makefile` has to be there.
 
 ## The structure
 
@@ -33,19 +38,22 @@ for git (GitHub rejects files over 100 MB), upload it to
 [Hugging Face](https://huggingface.co/) instead and link it from
 `technical_report.md`, together with where the data came from.
 
-`make run` has to spin up your project from its root:
+`make run` has to spin up your project from the root of your repository, on a
+clean checkout:
 
 ```bash
-cd my-project   # your renamed copy of the track directory
+git clone <your-repo>
+cd <your-repo>
 make run
 ```
 
 ## Getting started
 
 1. Click **Use this template** to create your own repository.
-2. Take the directory for your track and rename it to your project.
-3. Fill in its `README.md` and `technical_report.md`.
-4. Make `make run` work from its root, on a clean checkout.
+2. Move the contents of your track's directory (e.g. `track_1a/`) to the
+   repository root, then delete all the `track_*` directories.
+3. Fill in `README.md` and `technical_report.md`.
+4. Make sure `make run` works from the repository root, on a clean checkout.
 
 ## License
 

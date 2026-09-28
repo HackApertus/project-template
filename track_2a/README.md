@@ -19,6 +19,10 @@ https://hackapertus.notion.site/getting-started-guide-onlinehack
 
 ## Run it
 
+Move the contents of `track_2a/` to the root of your repo and delete all the
+`track_*` directories. Your repo root is your project root: judges run
+`make run` from there.
+
 From the root of the project:
 
 ```bash
