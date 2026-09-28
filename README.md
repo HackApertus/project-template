@@ -19,9 +19,6 @@ repository.** Move everything inside it (`README.md`, `technical_report.md`,
 level, and delete all the `track_*` directories. Keep the files and
 directories as shown below.
 
-Don't nest your project in a subdirectory. We run `make run` from the root of
-your repository, so the `Makefile` has to be there.
-
 ## The structure
 
 | Path | What it is |
@@ -38,8 +35,10 @@ for git (GitHub rejects files over 100 MB), upload it to
 [Hugging Face](https://huggingface.co/) instead and link it from
 `technical_report.md`, together with where the data came from.
 
-`make run` has to spin up your project from the root of your repository, on a
-clean checkout:
+## Run it
+
+Judges run `make run` from the root of your repository, on a clean checkout, so
+the `Makefile` has to be there — don't nest your project in a subdirectory:
 
 ```bash
 git clone <your-repo>
