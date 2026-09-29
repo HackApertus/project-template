@@ -51,7 +51,8 @@ The submission must:
 4. run end-to-end when judges try to run it
 
 ### Git repo (URL)
-- Create your repo from this template, then move the contents of `track_2b/` to the root of your repo and delete all the `track_*` directories. Your repo root is your project root: judges run `make run` from there.
+- Clone this repo and work in the `track_2b/` challenge directory. Delete the other track challenge directories.
+- Keep `track_2b/` as it is: don't rename it or move its files. Judges run `make run` from inside `track_2b/`.
 - Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.
 

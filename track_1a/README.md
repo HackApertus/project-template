@@ -44,7 +44,8 @@ The submission must:
 Your findings files must be shared under a CDLA-Permissive-2.0 license. However, submissions must be kept private until 1 December 2026.
 
 ### Git repo (URL)
-- Create your repo from this template, then move the contents of `track_1a/` to the root of your repo and delete all the `track_*` directories. Your repo root is your project root: judges run `make run` from there.
+- Clone this repo and work in the `track_1a/` challenge directory. Delete the other track challenge directories.
+- Keep `track_1a/` as it is: don't rename it or move its files. Judges run `make run` from inside `track_1a/`.
 - Set the repo to PRIVATE (Settings --> Collaborators --> Manage Visibility)
 - Add user [judgeailights](https://github.com/judgeailights) as collaborator (Settings --> Collaborators --> Add people)
 - Submit the URL of _your_ Git repo.
@@ -65,7 +66,7 @@ Your findings files must be shared under a CDLA-Permissive-2.0 license. However,
 
 You can create a Python notebook that reproduces each issue as faithfully as possible.
 
-Judges will *only* run code for reproducing the submission from the root of the project with the following command:
+Judges will *only* run code for reproducing the submission from inside the `track_1a/` directory with the following command:
 ```bash
 make run
 ```
