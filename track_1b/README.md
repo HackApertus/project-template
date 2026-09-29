@@ -63,7 +63,7 @@ http://hackapertus.ch/online-hack/submissions
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
 2. follow the specified input/output formats
-3. run with `make run` from the root of the project
+3. run in a Docker container, launched with `make run` from the root of the project
 4. run end-to-end when judges try to run it
 
 ### Git repo (URL)

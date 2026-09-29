@@ -38,7 +38,7 @@ http://hackapertus.ch/online-hack/submissions
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
 2. include all relevant findings files in `data/` with each file following the specified schema
-3. run with `make run` from the root of the project
+3. run in a Docker container, launched with `make run` from the root of the project
 4. run end-to-end when judges try to run it
 
 Your findings files must be shared under a CDLA-Permissive-2.0 license. However, submissions must be kept private until 1 December 2026.
@@ -59,7 +59,7 @@ Your findings files must be shared under a CDLA-Permissive-2.0 license. However,
 ### Findings Dataset
 - This challenge follows the submission format of the [Red‑Teaming Challenge - OpenAI gpt-oss-20b](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/data)
 - Each issue must be captured in its own findings file (adapted from Red-Teaming Challenge).
-- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [example_findings.json](data/example_findings.json)
+- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [data/example_findings.json](data/example_findings.json)
 - A submission can consist of up to 5 findings files.
 
 ### Reproducibility
