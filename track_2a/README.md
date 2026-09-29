@@ -34,10 +34,7 @@ Requirements: `runtime, hardware, API keys, model weights`
 
 ## Data
 
-Store your data in `data/` and commit it with your project. If it is too big
-for git (GitHub rejects files over 100 MB), upload it to
-[Hugging Face](https://huggingface.co/) instead and link it from
-`technical_report.md`, together with where the data came from.
+The `data/` directory must not be more than 100 MB.
 
 ## 📦 Submission Requirements & Deliverables
 ❗️ Submissions are not handled on Devpost but via our website only:

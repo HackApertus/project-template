@@ -26,7 +26,7 @@ below.
 | `technical_report.md` | The deeper write-up: architecture, evaluation, limitations |
 | `Makefile` | `make run` must spin up your project |
 | `src/` | Your code |
-| `data/` | Datasets — `track_1a`, `track_2a` and `track_2b` only |
+| `data/` | Datasets — `track_1a`, `track_2a` and `track_2b` only; max. 100 MB |
 | `docs/` | Diagrams, notes, longer write-ups |
 
 ## Run it
