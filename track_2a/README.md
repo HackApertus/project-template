@@ -20,7 +20,9 @@ https://hackapertus.notion.site/getting-started-guide-onlinehack
 ## Run it
 
 Keep `track_2a/` as it is: don't rename it or move its files, just delete the
-other track directories. Judges run `make run` from inside `track_2a/`:
+other track directories.
+
+From the root of the project:
 
 ```bash
 make run

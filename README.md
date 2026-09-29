@@ -29,18 +29,11 @@ below.
 | `data/` | Datasets — `track_1a`, `track_2a` and `track_2b` only |
 | `docs/` | Diagrams, notes, longer write-ups |
 
-Store your data in `data/` and commit it with your project. If it is too big
-for git (GitHub rejects files over 100 MB), upload it to
-[Hugging Face](https://huggingface.co/) instead and link it from
-`technical_report.md`, together with where the data came from.
-
 ## Run it
 
-Judges run `make run` from inside your track directory, on a clean checkout:
+Judges run `make run` from the root of the project, on a clean checkout:
 
 ```bash
-git clone <your-repo>
-cd <your-repo>/track_1a   # your track directory
 make run
 ```
 
@@ -49,7 +42,7 @@ make run
 1. Click **Use this template** to create your own repository.
 2. Delete the other track directories. Don't rename or restructure yours.
 3. Fill in its `README.md` and `technical_report.md`.
-4. Make `make run` work from inside your track directory, on a clean checkout.
+4. Make `make run` work from the root of the project, on a clean checkout.
 
 ## License
 

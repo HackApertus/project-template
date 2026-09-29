@@ -68,7 +68,7 @@ The submission must:
 
 ### Git repo (URL)
 - Clone this repo and work in the `track_1b/` challenge directory. Delete the other track challenge directories.
-- Keep `track_1b/` as it is: don't rename it or move its files. Judges run `make run` from inside `track_1b/`.
+- Keep `track_1b/` as it is: don't rename it or move its files.
 - Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.
 
@@ -95,7 +95,7 @@ Submitted datasets must comply with our guidelines for responsibly sourced datas
 
 You can create a Python notebook that reproduces your evaluation.
 
-Judges will *only* run code for reproducing the submission from inside the `track_1b/` directory with the following command:
+Judges will *only* run code for reproducing the submission from the root of the project with the following command:
 ```bash
 make run
 ```

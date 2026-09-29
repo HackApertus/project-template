@@ -52,7 +52,7 @@ The submission must:
 
 ### Git repo (URL)
 - Clone this repo and work in the `track_2b/` challenge directory. Delete the other track challenge directories.
-- Keep `track_2b/` as it is: don't rename it or move its files. Judges run `make run` from inside `track_2b/`.
+- Keep `track_2b/` as it is: don't rename it or move its files.
 - Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.
 
