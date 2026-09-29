@@ -22,7 +22,7 @@ below.
 
 | Path | What it is |
 | --- | --- |
-| `README.md` | Your project write-up — fill in every section |
+| `README.md` | The challenge description and submission requirements for your track |
 | `technical_report.md` | The deeper write-up: architecture, evaluation, limitations |
 | `Makefile` | `make run` must spin up your project |
 | `src/` | Your code |
@@ -41,7 +41,7 @@ make run
 
 1. Click **Use this template** to create your own repository.
 2. Delete the other track directories. Don't rename or restructure yours.
-3. Fill in its `README.md` and `technical_report.md`.
+3. Read its `README.md` and fill in `technical_report.md`.
 4. Make `make run` work from the root of the project, on a clean checkout.
 
 ## License

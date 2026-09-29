@@ -63,11 +63,11 @@ http://hackapertus.ch/online-hack/submissions
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
 2. follow the specified input/output formats
-3. run in a docker container that is launched with the specified CLI entry point 
+3. run with `make run` from the root of the project
 4. run end-to-end when judges try to run it
 
 ### Git repo (URL)
-- Clone this repo and work in the `track_1b/` challenge directory. Delete the other track challenge directories.
+- Create your repo from this template (**Use this template**) and work in the `track_1b/` challenge directory. Delete the other track challenge directories.
 - Keep `track_1b/` as it is: don't rename it or move its files.
 - Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.

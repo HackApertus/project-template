@@ -37,14 +37,14 @@ http://hackapertus.ch/online-hack/submissions
 
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
-2. include all relevant findings files in `\track_1a\data` with each file following the specified schema
-3. run in a docker container that is launched with the specified CLI entry point 
+2. include all relevant findings files in `data/` with each file following the specified schema
+3. run with `make run` from the root of the project
 4. run end-to-end when judges try to run it
 
 Your findings files must be shared under a CDLA-Permissive-2.0 license. However, submissions must be kept private until 1 December 2026.
 
 ### Git repo (URL)
-- Clone this repo and work in the `track_1a/` challenge directory. Delete the other track challenge directories.
+- Create your repo from this template (**Use this template**) and work in the `track_1a/` challenge directory. Delete the other track challenge directories.
 - Keep `track_1a/` as it is: don't rename it or move its files.
 - Set the repo to PRIVATE (Settings --> Collaborators --> Manage Visibility)
 - Add user [judgeailights](https://github.com/judgeailights) as collaborator (Settings --> Collaborators --> Add people)

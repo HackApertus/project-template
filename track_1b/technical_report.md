@@ -11,7 +11,7 @@
 
 ### Use of Apertus
 
-- **Model:** `e.g. swiss-ai/Apertus-70B-Instruct-2509`
+- **Model:** `e.g. swiss-ai/Apertus-v1.5-70B`
 - **How it is used:** inference | fine-tuning | evaluation | red-teaming
 - **Where it runs:** `local weights, hosted endpoint, ...`
 

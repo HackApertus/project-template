@@ -3,7 +3,7 @@
 Bring your own idea and build a working Apertus prototype that tackles a problem you care about — any domain, any use case. The project must be new, started within the hackathon period.
 
 Submissions must use the Apertus model family.
-For Track 2 this to means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, eg as automatic judges during evaluation. Their role must be clearly described in the submission report.
+For Track 2 this means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, e.g. as automatic judges during evaluation. Their role must be clearly described in the submission report.
 
 💬 In case you have questions, join the conversation on [Discord](https://discord.gg/hack-apertus) or send an email to “hello@hackapertus.ch”
 
@@ -20,7 +20,7 @@ https://hackapertus.notion.site/resources-tools
 | Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
 
 
-##**Target architecture (mandatory)**
+## Target architecture (mandatory)
 
 Whatever you build in Track 2B must be deployable in one of these three architectures:
 
@@ -44,11 +44,11 @@ http://hackapertus.ch/online-hack/submissions
 The submission must: 
 1. follow the template repo and include all prerequisite files and definitions
 2. follow the specified input/output formats
-3. run in a docker container that is launched with the specified CLI entry point 
+3. run with `make run` from the root of the project
 4. run end-to-end when judges try to run it
 
 ### Git repo (URL)
-- Clone this repo and work in the `track_2b/` challenge directory. Delete the other track challenge directories.
+- Create your repo from this template (**Use this template**) and work in the `track_2b/` challenge directory. Delete the other track challenge directories.
 - Keep `track_2b/` as it is: don't rename it or move its files.
 - Set the repo to PUBLIC (Settings --> Collaborators --> Manage Visibility)
 - Submit the URL of YOUR Git repo.
@@ -73,7 +73,7 @@ Submitted datasets must comply with our guidelines for responsibly sourced datas
 - Provide the URL of _your_ data set
 
 ### Demo video (URL)
-- Max. 2 min demo video of your protoytype
+- Max. 2 min demo video of your prototype
 
 ---
 
@@ -83,7 +83,7 @@ Submitted datasets must comply with our guidelines for responsibly sourced datas
 2. Technical rigour
 3. Value, cost & scalability
 4. Sovereign deployability
-5. Implementation feasibility**
+5. Implementation feasibility
 
 Judges use a Scale 0–5 per dimension.
 

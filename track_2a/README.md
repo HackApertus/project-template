@@ -1,7 +1,7 @@
 # Academia Challenges
 
 Submissions must use the Apertus model family.
-For Track 2 this to means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, e.g as automatic judges during evaluation. Their role must be clearly described in the submission report.
+For Track 2 this means that submitted solutions must be built with Apertus. Other open-weights models can be used to support development, e.g. as automatic judges during evaluation. Their role must be clearly described in the submission report.
 
 💬 In case you have questions, join the conversation on Discord or send an email to “hello@hackapertus.ch”
 
@@ -28,7 +28,7 @@ From the root of the project:
 make run
 ```
 
-Fill in the [Makefile](Makefile) so that works on a clean checkout.
+Fill in the [Makefile](Makefile) so that it works on a clean checkout.
 
 Requirements: `runtime, hardware, API keys, model weights`
 
