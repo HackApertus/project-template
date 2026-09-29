@@ -68,6 +68,6 @@ What you would build with another month.
 
 ## License
 
-Apache-2.0 — see [LICENSE](LICENSE). All Hack Apertus projects are open-sourced.
+Apache-2.0 — see [LICENSE](../LICENSE). All Hack Apertus projects are open-sourced.
 
 ## References
