@@ -16,8 +16,8 @@ https://hackapertus.notion.site/resources-tools
 
 | Models           | URL                                      |
 |------------------|------------------------------------------|
-| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
-| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
+| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](https://huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
+| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](https://huggingface.co/swiss-ai/Apertus-v1.5-70B) |
 
 
 ## Target architecture (mandatory)

@@ -25,8 +25,8 @@ https://hackapertus.notion.site/resources-tools
 
 | Models           | URL                                      |
 |------------------|------------------------------------------|
-| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
-| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](huggingface.co/swiss-ai/Apertus-v1.5-70B) |
+| Apertus v1.5 8B  | [huggingface.co/swiss-ai/Apertus-v1.5-8B](https://huggingface.co/swiss-ai/Apertus-v1.5-8B)  |
+| Apertus v1.5 70B | [huggingface.co/swiss-ai/Apertus-v1.5-70B](https://huggingface.co/swiss-ai/Apertus-v1.5-70B) |
 
 ---
 
@@ -59,7 +59,7 @@ Your findings files must be shared under a CDLA-Permissive-2.0 license. However,
 ### Findings Dataset
 - This challenge follows the submission format of the [Red‑Teaming Challenge - OpenAI gpt-oss-20b](https://www.kaggle.com/competitions/openai-gpt-oss-20b-red-teaming/data)
 - Each issue must be captured in its own findings file (adapted from Red-Teaming Challenge).
-- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [example_findings.json](example_findings.json)
+- The findings files must follow the format specified in [data/findings.schema](data/findings.schema). You can see an example in [example_findings.json](data/example_findings.json)
 - A submission can consist of up to 5 findings files.
 
 ### Reproducibility
