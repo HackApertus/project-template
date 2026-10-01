@@ -18,6 +18,7 @@ don't rename it or move its files — and delete the other track directories.
 That directory is your project root. Keep the files and directories as shown
 below.
 
+
 ## The structure
 
 | Path | What it is |
